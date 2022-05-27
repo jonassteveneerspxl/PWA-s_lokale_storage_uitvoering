@@ -1,0 +1,8 @@
+{
+  "name": "PWA's_lokale_storage",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "idb": "^7.0.1"
+  }
+}
