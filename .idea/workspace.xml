@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b72042b-aa6f-4fb0-a795-2c483f4ce78b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PWA's_lokale_storage.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/offline-storage-in-a-pwa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/offline-storage-in-a-pwa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offline-storage-in-a-pwa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/offline-storage-in-a-pwa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offline-storage-in-a-pwa/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/offline-storage-in-a-pwa/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/offline-storage-in-a-pwa/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/offline-storage-in-a-pwa/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-    </list>
+    <list default="true" id="6b72042b-aa6f-4fb0-a795-2c483f4ce78b" name="Changes" comment="uitvoering" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,11 +36,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653658105984</updated>
-      <workItem from="1653658108811" duration="321000" />
+      <workItem from="1653658108811" duration="630000" />
     </task>
+    <task id="LOCAL-00001" summary="uitvoering">
+      <created>1653658629336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653658629336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="uitvoering" />
+    <option name="LAST_COMMIT_MESSAGE" value="uitvoering" />
   </component>
 </project>
