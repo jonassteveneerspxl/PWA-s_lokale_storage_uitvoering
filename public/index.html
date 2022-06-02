@@ -24,9 +24,23 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>WPA App</title>
   </head>
   <body>
+  <script>
+    if('serviceWorker' in navigator) {
+      window.addEventListener('load', async () => {
+        // Try to register the service worker.
+        try {
+          const reg = await navigator.serviceWorker.register("./service-worker.js");
+          console.log('Service worker registered! 😎', reg);
+        } catch (err) {
+          console.log('😥 Service worker registration failed: ', err);
+        }
+      });
+      navigator.serviceWorker.register('../src/serviceWorker.ts')
+    }
+  </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

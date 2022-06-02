@@ -10,7 +10,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.register();
 
 async function testIDBKeyval() {
-    await set('test', 'test');
+    let object = {"name":"Jonas", "age":21, "car":null};
+    await set('test', object);
     const whatDoWeHave = await get('test');
     console.log(`When we queried idb-keyval for 'hello', we found: ${whatDoWeHave}`);
 }
